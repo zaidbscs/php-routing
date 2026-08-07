@@ -10,6 +10,18 @@
     <nav>
         <a href="/home">Home</a> | 
         <a href="/contact">Contact Us</a>
+    <br>
+    Any Folder access is denied
+    <br>
+    <a href="/uploads">Uploads</a> 
+    <br>
+    <a href="/views">Views</a>
+    <br>
+    But files inside folder is acces via url <br>
+    <a href="/uploads/testing.php">uploads/testing.php</a> 
+    <br>
+    <a href="/views/contact.php">Contact Us</a>
+    
     </nav>
 </body>
 </html>
