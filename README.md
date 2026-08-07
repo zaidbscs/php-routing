@@ -3,6 +3,8 @@
 
 A lightweight, clean-URL routing system built from scratch using pure PHP and Apache `.htaccess`. 
 
+🔗 **[Live Demo](https://php-routing.free.nf/)**
+
 This project demonstrates how to transition from traditional file-based URLs (e.g., `website.com/contact.php`) to modern, SEO-friendly clean URLs (e.g., `website.com/contact`) without requiring a heavy framework like Laravel or Symfony.
 
 ---
@@ -59,7 +61,5 @@ Based on the matched route, the router securely loads the corresponding view fil
 * **Home Page:** `http://localhost/php-routing/home` (or root)
 * **Contact Page:** `http://localhost/php-routing/contact`
 * **404 Handling:** `http://localhost/php-routing/random-page`
-
-
 
 
