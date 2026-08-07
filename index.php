@@ -1,9 +1,17 @@
-<?php
-// Get the requested URI and clean up leading/trailing slashes
-$request = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 
-// If your project is in a subfolder (e.g., localhost/php-routing/), 
-// you might need to adjust the path matching, but assuming root domain or virtual host:
+<?php
+// Get the requested path
+$request = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+// Remove the subfolder name (/php-routing) from the path dynamically
+$scriptName = dirname($_SERVER['SCRIPT_NAME']);
+if ($scriptName !== '/' && $scriptName !== '\\') {
+    $request = str_replace($scriptName, '', $request);
+}
+
+// Clean up trailing/leading slashes
+$request = trim($request, '/');
+
 $viewDir = __DIR__ . '/views/';
 
 switch ($request) {
@@ -21,3 +29,4 @@ switch ($request) {
         require $viewDir . '404.php';
         break;
 }
+?>
