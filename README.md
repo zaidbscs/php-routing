@@ -1,4 +1,4 @@
-[https://i.ibb.co/fdwZkLJ8/readme-banner.png](https://i.ibb.co/fdwZkLJ8/readme-banner.png)
+
 ![PHP Routing System ](https://i.ibb.co/fdwZkLJ8/readme-banner.png)
 ```
 
