@@ -1,6 +1,7 @@
-```
 [https://i.ibb.co/fdwZkLJ8/readme-banner.png](https://i.ibb.co/fdwZkLJ8/readme-banner.png)
 ![PHP Routing System ](https://i.ibb.co/fdwZkLJ8/readme-banner.png)
+```
+
 # Simple PHP Routing System (No Frameworks)
 
 A lightweight, clean-URL routing system built from scratch using pure PHP and Apache `.htaccess`. 
